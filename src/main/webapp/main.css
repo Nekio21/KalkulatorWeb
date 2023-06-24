@@ -1,0 +1,76 @@
+.{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #eef;
+
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Sen', sans-serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    border: 10px solid #2c7;
+    border-radius: 20px;
+    padding: 50px 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0px 0px  20px #151;
+
+}
+
+form span{
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+input[type="text"]{
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 100%;
+    font-size: 18px;
+    border-color: #0000;
+
+}
+
+input[type="submit"]{
+    background-color: #2c7;
+    color:  #eef;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 700;
+    border-color: #0000;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+
+input[type="submit"]:hover{
+    background-color: #1d6;
+    cursor: pointer;
+    letter-spacing: 4px;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}

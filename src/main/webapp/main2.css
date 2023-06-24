@@ -1,0 +1,60 @@
+.{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    background-color: #333;
+
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Sen', sans-serif;
+
+	font-weight: 700;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 500px;
+	max-width: 1200px;
+	height: 100vh;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+#calk{
+	color: #372;
+	font-size: 198px;
+}
+
+.reszta{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	font-size:200px;
+}
+
+#kreska{
+	width: 100px;
+	height: 15px;
+	background-color: #ddd;
+}
+
+#licznik{
+    color: #f44;
+}
+
+#mianownik{
+    color: #44f;
+}
+
+
+
+
